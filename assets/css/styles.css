@@ -73,7 +73,7 @@ p {
 }
 
 .main-bg {
-    background-image: url('Landing-Page/assets/img/main-bg.svg');
+    background-image: url('https://github.com/GuiOlv7/Landing-Page/blob/main/assets/img/main-bg.svg');
     background-size: cover;
     background-position: center center;
     color: var(--black-color);
