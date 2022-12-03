@@ -73,7 +73,7 @@ p {
 }
 
 .main-bg {
-    background-image: url('/HTML-CSS/LandingPage/CSS/Img/main-bg3.svg');
+    background-image: url('Landing-Page/assets/img/main-bg.svg');
     background-size: cover;
     background-position: center center;
     color: var(--black-color);
