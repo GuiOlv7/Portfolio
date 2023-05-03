@@ -1,0 +1,289 @@
+/* primary color: #232622
+   secondary color: #EAC7B2
+   third color: #3E5159
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #232622;
+}
+
+h1 {
+    color: #EAC7B2;
+    font-size: larger;
+}
+
+h2 {
+    color: #fff;
+}
+
+h3 {
+    font-size: large;
+    color: #ededed;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+hr {
+    margin: 5px 0;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+#section1 {
+    display: flex;
+    align-items: center;
+}
+
+#section2 {
+    height: fit-content;
+    align-items: center;
+}
+
+#section3 {
+    height: 74vh;
+}
+
+.menu {
+    background: fixed #232622;
+    position: fixed;
+    width: 100vw;
+    border: 1px solid #ffffff10;
+    z-index: 1000;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.profile-info {
+    letter-spacing: 5px;
+    margin-left: 5rem;
+    margin-top: 17px;
+    cursor: default;
+}
+
+.profile-info h3 {
+    margin-left: 2.3rem;
+    color: #EAC7B2;
+    font-weight: 500;
+}
+
+.menu-navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 18rem;
+}
+
+.menu-navigation ul {
+    display: flex;
+}
+
+.menu-navigation ul li {
+    letter-spacing: 3px;
+    font-size: medium;
+    padding: 1rem 2rem;
+    margin: 1.2rem 1px;
+    transition: all 300ms ease-out;
+}
+
+.menu-navigation li:hover {
+    background-color: #3e5159;
+    border-radius: 50px;
+    transition: all 300ms ease-out;
+}
+
+.quick-social a {
+    margin-left: 1rem;
+}
+
+.quick-social img:hover {
+    scale: 1.2;
+    transition: 200ms ease;
+}
+
+.main-content{
+    display: flex;
+}
+
+.info {
+    width: 40%;
+    margin:  auto 3rem auto 6rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-break: auto;
+}
+
+.info h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.emphasis {
+    color: #EAC7B2;
+}
+
+.section-title {
+    width: fit-content;
+    margin: 1rem auto 1rem auto;
+    cursor: default;
+}
+
+.section-title h2 {
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c4cccf;
+}
+
+.project-title {
+    margin-top: 7rem;
+    color: #c4cccf;
+}
+
+#section2-main-content {
+    margin: 8rem auto;
+    display: grid;
+    justify-content: center;
+}
+
+.right-projects {
+    margin-left: 30rem;
+}
+
+.project {
+    width: 300px;
+    height: fit-content;
+    background: fixed #3e5159;
+    border-radius: 25px;
+    text-align: center;
+    transition: 300ms ease;
+}
+
+.project:hover {
+    scale: 0.99;
+    transition: 300ms ease;
+}
+
+.project img {
+    margin: .6rem auto;
+    border-radius: 20px;
+}
+
+.project p {
+    margin: 1rem;
+    font-weight: 100;
+    text-align: center;
+    color: #c4cccf;
+}
+
+.project-skills {
+    display: flex;
+    justify-content: center;
+}
+
+.project-skills img {
+    margin-left: .5rem;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    margin: auto 0 1rem 0.5rem;
+}
+
+.project-button {
+    margin: 0 0 1rem 0;
+    padding: 0.5rem 1.5rem;
+    border: 0;
+    border-radius: 15px;
+    font-weight: 600;
+    color: #232622;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+.project-button:hover {
+    scale: 1.1;
+    transition: 300ms ease;
+}
+
+.see-project {
+    background: fixed #EAC7B2;
+    margin-right: 5px;
+}
+
+.contact-content {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.contact-img {
+    margin: auto 4rem;
+}
+
+.contact {
+    width: 50%;
+    height: fit-content;
+}
+
+.contact span {
+    font-size: 26px;
+    font-weight: 500;
+    margin-right: .5rem;
+}
+
+.contact a {
+    font-size: 23px;
+    color: #c4cccf;
+    transition: all 300ms ease-out;
+}
+
+.contact a:hover {
+    margin-left: 1rem;
+    transition: all 300ms ease-out;
+}
+
+.contact img {
+    width: 25px;
+    margin: auto 3px -3px auto;
+}
+
+.back-to-top {
+    display: flex;
+    margin: auto auto 2rem auto;
+    width: fit-content;
+    align-items: center;
+}
+
+.back-to-top img {
+    rotate: -90deg;
+    width: 25px;
+    margin-right: .5rem;
+}
+
+.back-to-top a {
+    color: #fff;
+    height: fit-content;
+}
+
+.back-to-top:hover {
+    opacity: 0.3;
+    transition: 200ms;
+}
