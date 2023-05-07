@@ -49,9 +49,9 @@ darkMode.addEventListener('click', function() {
         navigationLinks[0].classList.add('emphasis-light-mode')
         navigationLinks[1].classList.add('emphasis-light-mode')
         navigationLinks[2].classList.add('emphasis-light-mode')
-        quickIcons[0].setAttribute('src', './linkedin-icon-black.svg')
-        quickIcons[1].setAttribute('src', './github-icon-black.svg')
-        quickIcons[2].setAttribute('src', './whatsapp-icon-black.svg')
+        quickIcons[0].setAttribute('src', './images/linkedin-icon-black.svg')
+        quickIcons[1].setAttribute('src', './images/github-icon-black.svg')
+        quickIcons[2].setAttribute('src', './images/whatsapp-icon-black.svg')
         darkModeIcon.classList.remove('dark-mode-icon')
         darkModeIcon.classList.add('light-mode-icon')
         infoH3.style.color = '#000'
@@ -60,7 +60,7 @@ darkMode.addEventListener('click', function() {
         spanInfo[2].style.color = '#d61c47'
         spanInfo[3].style.color = '#d61c47'
         spanInfo[4].style.color = '#d61c47'
-        mainImage.setAttribute('src', './main-logo-light.svg')
+        mainImage.setAttribute('src', './images/main-logo-light.svg')
         sectionTitle[0].style.color = 'rgb(57, 57, 57)'
         sectionTitle[1].style.color = 'rgb(57, 57, 57)'
         project1.style.background = '#393939'
@@ -83,11 +83,11 @@ darkMode.addEventListener('click', function() {
         code3.style.color = '#f3f1ee'
         code4.style.background = '#000'
         code4.style.color = '#f3f1ee'
-        contactImage.setAttribute('src', './contact-logo-light.svg')
-        contactIcons[0].setAttribute('src', './email-icon-black.svg')
-        contactIcons[1].setAttribute('src', './linkedin-icon-black.svg')
-        contactIcons[2].setAttribute('src', './github-icon-black.svg')
-        contactIcons[3].setAttribute('src', './whatsapp-icon-black.svg')
+        contactImage.setAttribute('src', './images/contact-logo-light.svg')
+        contactIcons[0].setAttribute('src', './images/email-icon-black.svg')
+        contactIcons[1].setAttribute('src', './images/linkedin-icon-black.svg')
+        contactIcons[2].setAttribute('src', './images/github-icon-black.svg')
+        contactIcons[3].setAttribute('src', './images/whatsapp-icon-black.svg')
         wordEmail.style.color = '#d61c47'
         wordLinkedin.style.color = '#d61c47'
         wordGithub.style.color = '#d61c47'
@@ -96,7 +96,7 @@ darkMode.addEventListener('click', function() {
         linkedin.style.color = '#393939'
         github.style.color = '#393939'
         whatsapp.style.color = '#393939'
-        backToTopIcon.setAttribute('src', './back-to-top-icon-black.svg')
+        backToTopIcon.setAttribute('src', './images/back-to-top-icon-black.svg')
         backToTop.style.color = '#393939'
     } else {
         main.classList.remove("light-bg")
@@ -111,9 +111,9 @@ darkMode.addEventListener('click', function() {
         navigationLinks[0].classList.add('emphasis-dark-mode')
         navigationLinks[1].classList.add('emphasis-dark-mode')
         navigationLinks[2].classList.add('emphasis-dark-mode')
-        quickIcons[0].setAttribute('src', './linkedin-icon.svg')
-        quickIcons[1].setAttribute('src', './github-icon.svg')
-        quickIcons[2].setAttribute('src', './whatsapp-icon.svg')
+        quickIcons[0].setAttribute('src', './images/linkedin-icon.svg')
+        quickIcons[1].setAttribute('src', './images/github-icon.svg')
+        quickIcons[2].setAttribute('src', './images/whatsapp-icon.svg')
         darkModeIcon.classList.remove('light-mode-icon')
         darkModeIcon.classList.add('dark-mode-icon')
         infoH3.style.color = '#fff'
@@ -122,7 +122,7 @@ darkMode.addEventListener('click', function() {
         spanInfo[2].style.color = '#EAC7B2'
         spanInfo[3].style.color = '#EAC7B2'
         spanInfo[4].style.color = '#EAC7B2'
-        mainImage.setAttribute('src', './main_logo.svg')
+        mainImage.setAttribute('src', './images/main_logo.svg')
         sectionTitle[0].style.color = '#fff'
         sectionTitle[1].style.color = '#fff'
         project1.style.background = '#3e5159'
@@ -145,11 +145,11 @@ darkMode.addEventListener('click', function() {
         code3.style.color = '#232622'
         code4.style.background = '#fff'
         code4.style.color = '#232622'
-        contactImage.setAttribute('src', './contact-logo.svg')
-        contactIcons[0].setAttribute('src', './email-icon.svg')
-        contactIcons[1].setAttribute('src', './linkedin-icon.svg')
-        contactIcons[2].setAttribute('src', './github-icon.svg')
-        contactIcons[3].setAttribute('src', './whatsapp-icon.svg')
+        contactImage.setAttribute('src', './images/contact-logo.svg')
+        contactIcons[0].setAttribute('src', './images/email-icon.svg')
+        contactIcons[1].setAttribute('src', './images/linkedin-icon.svg')
+        contactIcons[2].setAttribute('src', './images/github-icon.svg')
+        contactIcons[3].setAttribute('src', './images/whatsapp-icon.svg')
         wordEmail.style.color = '#EAC7B2'
         wordLinkedin.style.color = '#EAC7B2'
         wordGithub.style.color = '#EAC7B2'
@@ -158,7 +158,7 @@ darkMode.addEventListener('click', function() {
         linkedin.style.color = '#c4cccf'
         github.style.color = '#c4cccf'
         whatsapp.style.color = '#c4cccf'
-        backToTopIcon.setAttribute('src', './back-to-top-icon.svg')
+        backToTopIcon.setAttribute('src', './images/back-to-top-icon.svg')
         backToTop.style.color = '#fff'
     }
 })
