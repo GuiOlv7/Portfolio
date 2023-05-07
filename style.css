@@ -1,8 +1,3 @@
-/* primary color: #232622
-   secondary color: #EAC7B2
-   third color: #3E5159
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +5,7 @@
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-}
-
-body {
-    background: #232622;
+    transition: all 300ms ease;
 }
 
 h1 {
@@ -58,8 +50,7 @@ hr {
     height: 74vh;
 }
 
-.menu {
-    background: fixed #232622;
+#menu {
     position: fixed;
     width: 100vw;
     border: 1px solid #ffffff10;
@@ -101,7 +92,15 @@ hr {
     transition: all 300ms ease-out;
 }
 
-.menu-navigation li:hover {
+.emphasis {
+    color: #EAC7B2;
+}
+
+.emphasis-dark-mode {
+    color: #EAC7B2;
+}
+
+.emphasis-dark-mode:hover {
     background-color: #3e5159;
     border-radius: 50px;
     transition: all 300ms ease-out;
@@ -114,6 +113,31 @@ hr {
 .quick-social img:hover {
     scale: 1.2;
     transition: 200ms ease;
+}
+
+.dark-mode button {
+    margin-left: 1.2rem;
+    background: none;
+    border: none;
+}
+
+.dark-mode-icon {
+    color: #fff;
+    zoom: 130%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.light-mode-icon {
+    color: #000;
+    zoom: 130%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dark-mode-icon:hover {
+    scale: 1.2;
+    transition: all 300ms ease;
 }
 
 .main-content{
@@ -134,10 +158,6 @@ hr {
 .info h3 {
     font-size: 25px;
     font-weight: 100;
-}
-
-.emphasis {
-    color: #EAC7B2;
 }
 
 .section-title {
@@ -289,6 +309,31 @@ hr {
     transition: 200ms;
 }
 
+
+/* Dark Mode */
+.dark-bg {
+    background: #232622;
+}
+
+.dark-font {
+    color: #000;
+}
+
+/* Light Mode */
+.light-bg {
+    background: #f3f1ee;
+}
+
+.emphasis-light-mode {
+    color: #d61c47;
+}
+
+.emphasis-light-mode:hover {
+    background-color: #393939;
+    border-radius: 50px;
+    transition: all 300ms ease-out;
+}
+
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
     h1 {
@@ -368,7 +413,7 @@ hr {
 }
 
 /* Smartphone */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 341px) and (max-width: 767px) {
  
     h1 {
         font-size: small;
@@ -382,8 +427,140 @@ hr {
         margin: 1rem auto;
     }
 
+    .profile-info {
+        margin: auto;
+    }
+
+    .menu-navigation {
+        margin: auto 8px auto 0;
+    }
+
     .menu-navigation ul, .quick-social {
         display: none;
+    }
+
+    .dark-mode button {
+        margin-left: 0;
+    }
+
+    .dark-mode-icon {
+        zoom: 80%;
+    }
+
+    .main-content {
+        justify-content: center;
+    }
+
+    .info {
+        margin: auto;
+        width: 60%;
+    }
+
+    .info h3 {
+        font-size: 15px;
+    }
+
+    #section1 img {
+        display: none;
+    }
+
+    .section-title h2 {
+        font-size: medium;
+    }
+
+    #section2-main-content {
+        margin: 0 auto;
+    }
+
+    .project {
+        width: 250px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    .project img {
+        width: 230px;
+    }
+
+    .project-skills img {
+        width: 20px;
+    }
+
+    .project p, .project {
+        font-size: small;
+    }
+
+    .project-button {
+        padding: 0.3rem 0.9rem;
+        font-size: small;
+    }
+
+    #section3 {
+        height: fit-content;
+        margin-top: 5rem;
+    }
+    
+    .contact-content {
+        width: fit-content;
+        height: fit-content;
+        margin: 2.5rem auto 4rem;
+        justify-content: center;
+    }
+
+    .contact-img {
+        display: none;
+    }
+
+    .contact {
+        width: fit-content;
+    }
+
+    .contact img {
+        width: 20px;
+    }
+
+    .contact span {
+        font-size: 18px;
+    }
+
+    .contact a {
+        font-size: 16px;
+    }   
+}
+
+
+@media (max-width: 340px) {
+ 
+    h1 {
+        font-size: small;
+    }
+    
+    h3 {
+        font-size: x-small;
+    }
+
+    .nav-bar {
+        margin: 1rem auto;
+    }
+
+    .profile-info {
+        margin: auto 24px auto auto;
+    }
+
+    .menu-navigation {
+        margin: auto 8px auto 0;
+    }
+
+    .menu-navigation ul, .quick-social {
+        display: none;
+    }
+
+    .dark-mode button {
+        margin-left: 0;
+    }
+
+    .dark-mode-icon {
+        zoom: 80%;
     }
 
     .main-content {
