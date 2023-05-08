@@ -10,6 +10,7 @@ Sejam bem-vindos ao meu portfólio, onde você vai poder ver alguns dos meu proj
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
+  <li>JavaScript</li>
 </ul><hr>
 
 <h2>Criador</h2>
