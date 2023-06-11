@@ -1,8 +1,3 @@
-/* primary color: #232622
-   secondary color: #EAC7B2
-   third color: #3E5159
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     transition: all 300ms ease;
+}
+
+*::selection {
+    background: fixed #46555c;
 }
 
 h1 {
@@ -143,6 +142,10 @@ hr {
 .dark-mode-icon:hover {
     scale: 1.2;
     transition: all 300ms ease;
+}
+
+#change-theme:hover {
+    cursor: pointer;
 }
 
 .main-content{
