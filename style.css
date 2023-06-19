@@ -317,6 +317,10 @@ hr {
     transition: 200ms;
 }
 
+#warning {
+    color: #393939;
+}
+
 
 /* Dark Mode */
 .dark-bg {
